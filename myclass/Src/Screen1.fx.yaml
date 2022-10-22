@@ -1,0 +1,93 @@
+Screen1 As screen:
+    BackgroundImage: ='Screenshot 2022-10-21 at 18.12.15'
+    Fill: =RGBA(255, 255, 255, 1)
+
+    Form1 As form:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =718
+        Visible: =false
+        Width: =1208
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    TextInput1 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(16, 130, 109, 1)
+        BorderThickness: =5
+        Default: =""
+        HintText: ="Lietotāja vārds"
+        RadiusBottomLeft: =8
+        RadiusBottomRight: =8
+        RadiusTopLeft: =8
+        RadiusTopRight: =8
+        X: =484
+        Y: =256
+        ZIndex: =2
+
+    TextInput1_1 As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(16, 130, 109, 1)
+        BorderThickness: =5
+        Default: =""
+        HintText: ="Parole"
+        RadiusBottomLeft: =8
+        RadiusBottomRight: =8
+        RadiusTopLeft: =8
+        RadiusTopRight: =8
+        X: =484
+        Y: =334
+        ZIndex: =3
+
+    Button1 As button:
+        Fill: =RGBA(16, 130, 109, 1)
+        OnSelect: |
+            =
+        Text: ="Ieiet"
+        X: =564
+        Y: =509
+        ZIndex: =5
+
+    Button1_1 As button:
+        Fill: =RGBA(16, 130, 109, 1)
+        OnSelect: =Navigate(Screen2,ScreenTransition.Fade)
+        Text: ="Reģistrēties"
+        X: =564
+        Y: =571
+        ZIndex: =6
+
+    Label2 As label:
+        Align: =Align.Center
+        Text: ="Forgot password"
+        Underline: =true
+        X: =585
+        Y: =393
+        ZIndex: =7
+
+    Icon1 As icon.Person:
+        Height: =52
+        Icon: =Icon.Person
+        Width: =46
+        X: =484
+        Y: =250
+        ZIndex: =8
+
+    Icon2 As icon.Key:
+        Height: =36
+        Icon: =Icon.Key
+        Width: =32
+        X: =491
+        Y: =338
+        ZIndex: =9
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Font: =Font.'Dancing Script'
+        Height: =140
+        Size: =30
+        Text: ="MyClass"
+        Width: =302
+        X: =509
+        Y: =70
+        ZIndex: =10
+

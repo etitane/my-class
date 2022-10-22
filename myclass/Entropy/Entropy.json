@@ -1,0 +1,92 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 11,
+    "Button1_1": 12,
+    "Button1_2": 21,
+    "Form1": 4,
+    "Icon1": 6,
+    "Icon2": 9,
+    "Label1_1": 14,
+    "Label1_2": 5,
+    "Label2": 10,
+    "Screen1": 3,
+    "Screen2": 13,
+    "TextInput1": 7,
+    "TextInput1_1": 8,
+    "TextInput1_2": 15,
+    "TextInput1_3": 16,
+    "TextInput1_4": 17,
+    "TextInput1_5": 18,
+    "TextInput1_6": 19,
+    "TextInput1_7": 20
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/22/2022 12:46:34",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {},
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {
+    "Screenshot 2022-10-21 at 18.12.15": "e1ff4288-3637-48af-a7f2-9600efd01b8c.png"
+  },
+  "LocalResourceRootPaths": {
+    "Screenshot 2022-10-21 at 18.12.15": "https://docserverpwaprodweu.blob.core.windows.net/fc4b9092-1b33-4163-971a-600324a09711-1/resource/Assets0Images0e1ff4288-3637-48af-a7f2-9600efd01b8c.png?sv=2017-04-17&sr=b&sig=HLAi9A9PMc2xkrFAEUtK%2Bxxp8jYtCkZ1cxfbszJ0xEw%3D&spr=https&se=2022-10-23T12%3A48%3A58Z&sp=r"
+  },
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 4,
+    "form": 0,
+    "icon": 2,
+    "label": 1,
+    "text": 3
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 7,
+    "Button1_1": 8,
+    "Button1_2": 16,
+    "Form1": 0,
+    "Icon1": 2,
+    "Icon2": 5,
+    "Label1_1": 9,
+    "Label1_2": 1,
+    "Label2": 6,
+    "Screen1": 0,
+    "Screen2": 0,
+    "TextInput1": 3,
+    "TextInput1_1": 4,
+    "TextInput1_2": 10,
+    "TextInput1_3": 11,
+    "TextInput1_4": 12,
+    "TextInput1_5": 13,
+    "TextInput1_6": 14,
+    "TextInput1_7": 15
+  },
+  "ResourcesJsonIndices": {
+    "Image-Screenshot 2022-10-21 at 18.12.15": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1904342,
+    "ControlCount": {
+      "button": 3,
+      "form": 1,
+      "icon": 2,
+      "label": 3,
+      "screen": 2,
+      "text": 8
+    },
+    "DeserializationLoadTime": 1.5700778,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}
