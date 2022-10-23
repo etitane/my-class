@@ -1,1 +1,42 @@
-{}
+{
+  "29c479c6-f747-4879-85ce-4612cd8542d1": {
+    "connectionParameters": {
+      "database": "PIT",
+      "server": "pit-calendar.database.windows.net",
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SQL Server",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/patches/1595-sql/1.0.1595.2993/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/7e100c14-8879-4be2-a84d-2adc8a2a4059"
+    },
+    "datasets": {
+      "pit-calendar.database.windows.net,PIT": {
+        "dataSources": {
+          "Attachment": {
+            "tableName": "[dbo].[Attachment]"
+          },
+          "Event": {
+            "tableName": "[dbo].[Event]"
+          },
+          "Lietotajs": {
+            "tableName": "[dbo].[Lietotajs]"
+          },
+          "Reminder": {
+            "tableName": "[dbo].[Reminder]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Lietotajs",
+      "Reminder",
+      "Event",
+      "Attachment"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "29c479c6-f747-4879-85ce-4612cd8542d1"
+  }
+}

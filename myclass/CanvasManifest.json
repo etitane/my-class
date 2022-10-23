@@ -93,7 +93,6 @@
     "FileID": "22c82e35-e322-40fe-aa99-9e76de541861",
     "Id": "22c82e35-e322-40fe-aa99-9e76de541861",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "Name": "AppTest1",
     "OriginatingVersion": "1.326"
   },
@@ -110,6 +109,8 @@
   },
   "ScreenOrder": [
     "Screen1",
-    "Screen2"
+    "Screen2",
+    "Screen2_1",
+    "TestDatabase"
   ]
 }

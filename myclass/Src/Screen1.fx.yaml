@@ -3,6 +3,7 @@ Screen1 As screen:
     Fill: =RGBA(255, 255, 255, 1)
 
     Form1 As form:
+        DataSource: =[Lietotajs]
         Fill: =RGBA(255, 255, 255, 1)
         Height: =718
         Visible: =false

@@ -1,0 +1,30 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sql",
+    "CdpRevision": {
+      "BaseUrl": "/v2",
+      "LastChangedTimeString": "2022-09-20T18:08:23.1570000Z",
+      "RevisionNumber": 2
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "Attached_file_id": "Attached_file_id",
+      "created_at": "created_at",
+      "Date": "Date",
+      "Details": "Details",
+      "EventId": "EventId",
+      "EventName": "EventName",
+      "EventType": "EventType",
+      "Place": "Place",
+      "Reminder": "Reminder",
+      "Time": "Time",
+      "updated_at": "updated_at",
+      "UserId": "UserId"
+    },
+    "DatasetName": "pit-calendar.database.windows.net,PIT",
+    "EncodeDataset": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Event",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
