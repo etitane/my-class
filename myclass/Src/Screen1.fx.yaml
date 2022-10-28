@@ -2,16 +2,6 @@ Screen1 As screen:
     BackgroundImage: ='Screenshot 2022-10-21 at 18.12.15'
     Fill: =RGBA(255, 255, 255, 1)
 
-    Form1 As form:
-        DataSource: =[Lietotajs]
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =718
-        Visible: =false
-        Width: =1208
-        X: =40
-        Y: =40
-        ZIndex: =1
-
     TextInput1 As text:
         Align: =Align.Center
         BorderColor: =RGBA(16, 130, 109, 1)
