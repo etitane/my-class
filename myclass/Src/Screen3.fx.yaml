@@ -4,7 +4,7 @@ Screen3 As screen:
     Button2 As button:
         Fill: =RGBA(33, 128, 116, 1)
         OnSelect: =Navigate(Screen1, Fade)
-        PressedColor: =Navigate(Screen2,ScreenTransition.Fade)
+        PressedColor: =Navigate(Screen2,ScreenTransition.Cover)
         Text: ="Button"
         X: =654
         Y: =462
