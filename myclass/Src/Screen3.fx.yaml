@@ -1,0 +1,11 @@
+Screen3 As screen:
+    BackgroundImage: ='Screenshot 2022-10-21 at 18.12.15'
+
+    Button2 As button:
+        Fill: =RGBA(33, 128, 116, 1)
+        OnSelect: =Exit(true)
+        Text: ="Button"
+        X: =654
+        Y: =462
+        ZIndex: =1
+
