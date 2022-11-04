@@ -51,6 +51,240 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 14,
+                  "charOffset": 6,
+                  "snippet": {
+                    "text": "MenuCollection"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MenuItem",
+                "module": "Vertical menu",
+                "type": "'Vertical menu'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "MenuCollection"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 158,
+                  "snippet": {
+                    "text": "Meeting"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MenuItem",
+                "module": "Vertical menu",
+                "type": "'Vertical menu'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Meeting"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 12,
+                  "charOffset": 256,
+                  "snippet": {
+                    "text": "'Contact Us'"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MenuItem",
+                "module": "Vertical menu",
+                "type": "'Vertical menu'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Contact Us"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 305,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Table(MenuCollection, {\n        MenuHeader: \"Home\",\n        Screen: Home,\n        icon: Icon.Home\n    },\n    {\n        MenuHeader: \"Meeting\",\n        Screen: Meeting,\n        icon: Icon.People\n    },\n    {\n        MenuHeader: \"Contact Us\",\n        Screen: 'Contact Us',\n        icon: Icon.Mail\n    }\n    )"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MenuItem",
+                "module": "Vertical menu",
+                "type": "'Vertical menu'"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Table"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 89,
+                  "charOffset": 109,
+                  "snippet": {
+                    "text": "{\n        MenuHeader: \"Meeting\",\n        Screen: Meeting,\n        icon: Icon.People\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MenuItem",
+                "module": "Vertical menu",
+                "type": "'Vertical menu'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRecord",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Vertical menu'.MenuItem",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 95,
+                  "charOffset": 204,
+                  "snippet": {
+                    "text": "{\n        MenuHeader: \"Contact Us\",\n        Screen: 'Contact Us',\n        icon: Icon.Mail\n    }"
+                  }
+                }
+              },
+              "properties": {
+                "member": "MenuItem",
+                "module": "Vertical menu",
+                "type": "'Vertical menu'"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrIncompatibleRecord",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen1"
                 }
               ],
@@ -73,7 +307,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -103,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -133,7 +367,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -162,7 +396,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -192,7 +426,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -222,7 +456,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -252,7 +486,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -282,7 +516,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -312,7 +546,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -342,7 +576,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -371,7 +605,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -391,6 +625,51 @@
                 "howToFix": [
                   "Move the behavior function to a behavior-based property."
                 ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrIncompatibleRecord",
+              "messageStrings": {
+                "issue": {
+                  "text": "Cannot use this record. It may contain colliding fields of incompatible types."
+                }
+              },
+              "properties": {
+                "componentType": "app",
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

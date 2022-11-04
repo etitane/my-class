@@ -1,0 +1,25 @@
+"'Vertical menu' As CanvasComponent":
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    MenuItem: |-
+        =Table(MenuCollection, {
+                MenuHeader: "Home",
+                Screen: Home,
+                icon: Icon.Home
+            },
+            {
+                MenuHeader: "Meeting",
+                Screen: Meeting,
+                icon: Icon.People
+            },
+            {
+                MenuHeader: "Contact Us",
+                Screen: 'Contact Us',
+                icon: Icon.Mail
+            }
+            )
+    Width: =200
+    X: =0
+    Y: =0
+    ZIndex: =1
+

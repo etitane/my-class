@@ -1,5 +1,6 @@
 Screen3 As screen:
     BackgroundImage: ='Screenshot 2022-10-21 at 18.12.15'
+    Fill: =
 
     Button2 As button:
         Fill: =RGBA(33, 128, 116, 1)

@@ -1,5 +1,7 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Vertical menu": 3
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
@@ -22,11 +24,12 @@
     "TextInput1_4": 16,
     "TextInput1_5": 17,
     "TextInput1_6": 18,
-    "TextInput1_7": 19
+    "TextInput1_7": 19,
+    "Vertical menu": 23
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/04/2022 16:25:58",
+  "HeaderLastSavedDateTimeUTC": "11/04/2022 17:00:25",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -36,8 +39,12 @@
   "LocalResourceRootPaths": {
     "Screenshot 2022-10-21 at 18.12.15": "https://docserverpwaprodweu.blob.core.windows.net/9268020e-f541-49cd-8e2a-5e5c5f924539-1/resource/Assets0Images0e1ff4288-3637-48af-a7f2-9600efd01b8c.png?sv=2017-04-17&sr=b&sig=0xwftzE5Qc%2BXNn3QfGWAKA1VdXhw3Mu7X5k%2B%2FBbR8rw%3D&spr=https&se=2022-11-05T16%3A09%3A20Z&sp=r"
   },
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "OrderComponentMetadata": {
+    "c9babf9fa72346c9aaa1c038dccc8fac": 0
+  },
+  "OrderComponentTemplate": {
+    "c9babf9fa72346c9aaa1c038dccc8fac": 0
+  },
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
@@ -69,7 +76,8 @@
     "TextInput1_4": 11,
     "TextInput1_5": 12,
     "TextInput1_6": 13,
-    "TextInput1_7": 14
+    "TextInput1_7": 14,
+    "Vertical menu": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 1,
@@ -87,7 +95,7 @@
       "text": 8
     },
     "DeserializationLoadTime": 1.4753855,
-    "ErrorCount": 1
+    "ErrorCount": 7
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
