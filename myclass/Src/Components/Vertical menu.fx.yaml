@@ -1,6 +1,9 @@
 "'Vertical menu' As CanvasComponent":
+    Color: =White
+    CurrentIndicatorColor: =RGBA(0, 0, 0, 1)
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
+    HoverFill: =RGBA(0, 0, 0, 1)
     MenuItem: |-
         =Table(
             {Value: "Item 1", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
@@ -10,6 +13,7 @@
             {Value: "Item 5", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
             {Value: "Item 6", Icon: Icon.Waypoint, Screen: App.ActiveScreen}
          )
+    SelectedFill: =RGBA(0, 0, 0, 1)
     Width: =200
     X: =0
     Y: =0
