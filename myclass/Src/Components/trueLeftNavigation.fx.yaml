@@ -1,7 +1,7 @@
 trueLeftNavigation As CanvasComponent:
     Fill: =RGBA(244, 244, 244, 1)
     Height: =Max(App.Height, App.DesignHeight)
-    MenuWidth: =If(varOpenMenu, Max(App.Width, App.DesignWidth)/7, 70)
+    MenuWidth: =If(varOpenMenu, Max(App.Width, App.DesignWidth)/9, 70)
     Width: =trueLeftNavigation.MenuWidth
     X: =0
     Y: =0
