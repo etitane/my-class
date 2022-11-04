@@ -92,6 +92,7 @@ Screen2 As screen:
 
     Button1_2 As button:
         Fill: =RGBA(16, 130, 109, 1)
+        OnSelect: =Navigate(Screen3, Fade)
         Text: ="Reģistrēties"
         X: =596
         Y: =636
