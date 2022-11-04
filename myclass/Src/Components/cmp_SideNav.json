@@ -5,7 +5,7 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "Vertical menu",
+    "Name": "cmp_SideNav",
     "TemplateGuid": "c9babf9fa72346c9aaa1c038dccc8fac"
   },
   "ComponentType": "CanvasComponent",
@@ -65,7 +65,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638031786065501104",
+  "LastModifiedTimestamp": "638031794631824967",
   "Name": "c9babf9fa72346c9aaa1c038dccc8fac",
   "OverridableProperties": {},
   "Version": "638031773090256940"
