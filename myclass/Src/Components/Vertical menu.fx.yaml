@@ -1,6 +1,6 @@
 "'Vertical menu' As CanvasComponent":
     Color: =White
-    CurrentIndicatorColor: =RGBA(0, 0, 0, 1)
+    CurrentIndicatorColor: =RGBA(255, 255, 255, 10%)
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
     HoverFill: =RGBA(0, 0, 0, 1)
