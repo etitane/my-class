@@ -14,5 +14,6 @@ Screen3 As screen:
         ZIndex: =1
 
     trueLeftNavigation_1 As trueLeftNavigation:
+        Width: =trueLeftNavigation_1.MenuWidth
         ZIndex: =2
 
