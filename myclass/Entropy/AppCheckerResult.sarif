@@ -23,10 +23,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 23,
+                  "charLength": 39,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Navigate(Screen1, Fade)"
+                    "text": "Navigate(Screen2,ScreenTransition.Fade)"
                   }
                 }
               },
