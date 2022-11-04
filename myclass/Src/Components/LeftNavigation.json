@@ -5,7 +5,7 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "cmp_SideNav",
+    "Name": "LeftNavigation",
     "TemplateGuid": "c9babf9fa72346c9aaa1c038dccc8fac"
   },
   "ComponentType": "CanvasComponent",
@@ -22,18 +22,18 @@
     },
     {
       "Category": 0,
-      "DisplayName": "Color",
+      "DisplayName": "HoverFill",
       "Hidden": false,
-      "Name": "Color",
+      "Name": "HoverFill",
       "PropertyDataTypeKey": "Color",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
     },
     {
       "Category": 0,
-      "DisplayName": "HoverFill",
+      "DisplayName": "Color",
       "Hidden": false,
-      "Name": "HoverFill",
+      "Name": "Color",
       "PropertyDataTypeKey": "Color",
       "Tooltip": "A custom property",
       "Type": "{\"Version\":\"1.326\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
@@ -65,7 +65,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638031796830051070",
+  "LastModifiedTimestamp": "638031804046765401",
   "Name": "c9babf9fa72346c9aaa1c038dccc8fac",
   "OverridableProperties": {},
   "Version": "638031773090256940"

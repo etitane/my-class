@@ -1,0 +1,27 @@
+LeftNavigation As CanvasComponent:
+    Color: =White
+    CurrentIndicatorColor: =ColorFade(RGBA(29,161,242,1),70%)
+    Fill: =RGBA(244, 244, 244, 1)
+    Height: =Max(App.Height, App.DesignHeight)
+    HoverFill: =RGBA(255, 255, 255, 10%)
+    MenuItem: =
+    SelectedFill: =RGBA(255, 255, 255, 10%)
+    Width: =Max(App.Width, App.DesignWidth)/5
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Icon3 As icon.Hamburger:
+        Height: |
+            =70
+        Icon: =Icon.Hamburger
+        OnSelect: =
+        PaddingBottom: =15
+        PaddingLeft: =15
+        PaddingRight: =15
+        PaddingTop: =15
+        Width: |
+            =70
+        Y: =3
+        ZIndex: =1
+

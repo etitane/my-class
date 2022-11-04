@@ -1,6 +1,8 @@
 {
   "ComponentIndexes": {
-    "cmp_SideNav": 3
+    "LeftNavigation": 3,
+    "trueLeftNavigation": 4,
+    "trueLeftNavigation_1": 4
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
@@ -9,12 +11,14 @@
     "Button1_1": 11,
     "Button1_2": 20,
     "Button2": 22,
-    "cmp_SideNav": 23,
     "Icon1": 5,
     "Icon2": 8,
+    "Icon3": 32,
+    "Icon4": 35,
     "Label1_1": 13,
     "Label1_2": 4,
     "Label2": 9,
+    "LeftNavigation": 23,
     "Screen1": 3,
     "Screen2": 12,
     "Screen3": 21,
@@ -25,11 +29,13 @@
     "TextInput1_4": 16,
     "TextInput1_5": 17,
     "TextInput1_6": 18,
-    "TextInput1_7": 19
+    "TextInput1_7": 19,
+    "trueLeftNavigation": 33,
+    "trueLeftNavigation_1": 34
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/04/2022 17:28:05",
+  "HeaderLastSavedDateTimeUTC": "11/04/2022 17:42:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -40,9 +46,11 @@
     "Screenshot 2022-10-21 at 18.12.15": "https://docserverpwaprodweu.blob.core.windows.net/9268020e-f541-49cd-8e2a-5e5c5f924539-1/resource/Assets0Images0e1ff4288-3637-48af-a7f2-9600efd01b8c.png?sv=2017-04-17&sr=b&sig=0xwftzE5Qc%2BXNn3QfGWAKA1VdXhw3Mu7X5k%2B%2FBbR8rw%3D&spr=https&se=2022-11-05T16%3A09%3A20Z&sp=r"
   },
   "OrderComponentMetadata": {
+    "767ae406553640c4bb00d248ee989ff2": 1,
     "c9babf9fa72346c9aaa1c038dccc8fac": 0
   },
   "OrderComponentTemplate": {
+    "767ae406553640c4bb00d248ee989ff2": 1,
     "c9babf9fa72346c9aaa1c038dccc8fac": 0
   },
   "OrderDataSource": {
@@ -62,13 +70,15 @@
     "Button1": 6,
     "Button1_1": 7,
     "Button1_2": 15,
-    "Button2": 16,
-    "cmp_SideNav": 0,
+    "Button2": 17,
     "Icon1": 1,
     "Icon2": 4,
+    "Icon3": 18,
+    "Icon4": 19,
     "Label1_1": 8,
     "Label1_2": 0,
     "Label2": 5,
+    "LeftNavigation": 0,
     "Screen1": 0,
     "Screen2": 0,
     "Screen3": 0,
@@ -79,7 +89,9 @@
     "TextInput1_4": 11,
     "TextInput1_5": 12,
     "TextInput1_6": 13,
-    "TextInput1_7": 14
+    "TextInput1_7": 14,
+    "trueLeftNavigation": 0,
+    "trueLeftNavigation_1": 16
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 1,
@@ -90,7 +102,9 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.1885335,
     "ControlCount": {
+      "767ae406553640c4bb00d248ee989ff2": 1,
       "button": 3,
+      "c9babf9fa72346c9aaa1c038dccc8fac": 1,
       "icon": 2,
       "label": 3,
       "screen": 2,

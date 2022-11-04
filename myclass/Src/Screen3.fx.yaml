@@ -1,6 +1,8 @@
 Screen3 As screen:
     BackgroundImage: ='Screenshot 2022-10-21 at 18.12.15'
     Fill: =
+    Height: =Max(App.Height, App.DesignHeight)
+    Width: =Max(App.Width, App.DesignWidth)
 
     Button2 As button:
         Fill: =RGBA(33, 128, 116, 1)
@@ -10,4 +12,7 @@ Screen3 As screen:
         X: =654
         Y: =462
         ZIndex: =1
+
+    trueLeftNavigation_1 As trueLeftNavigation:
+        ZIndex: =2
 
