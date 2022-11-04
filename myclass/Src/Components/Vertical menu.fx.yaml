@@ -1,7 +1,15 @@
 "'Vertical menu' As CanvasComponent":
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
-    MenuItem: =MenuCollection
+    MenuItem: |-
+        =Table(
+            {Value: "Item 1", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
+            {Value: "Item 2", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
+            {Value: "Item 3", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
+            {Value: "Item 4", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
+            {Value: "Item 5", Icon: Icon.Waypoint, Screen: App.ActiveScreen},
+            {Value: "Item 6", Icon: Icon.Waypoint, Screen: App.ActiveScreen}
+         )
     Width: =200
     X: =0
     Y: =0
